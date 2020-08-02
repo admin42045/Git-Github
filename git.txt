@@ -17,7 +17,7 @@ git config --global user.email "nitinkumar42045@gmail.com"
 
 // send to server
 git remote add origin https://github.com/admin42045
-git push -u origin master
+git push -u origin master - adding files in github dir (it's not working then run below cmd)
 or
 git push -f origin master
 
@@ -47,6 +47,31 @@ git commit filename -m "commit message"  - add file and commit
 git commit -am "insert commit message"  -  add file and commit staged files
 git commit -amend "new commit message" -  amending a commit
 
+git rebase -i  - squashing commits together(this will give you an interface on your core editor)
+git reset --soft HEAD~Number_of_commits
+
+
+############## branches ##########################
+git checkout -b branchname  - create a local branch
+git checkout -         - Switching between 2 branches (in fact, this would work on terminal as well to switch between 2 directories - $ cd -)
+git push -u origin branchname - pushing local branch to remote
+git branch -d branchname - Deleting a local branch - this won't let you delete a branch that hasn't been merged yet
+git branch -D branchname - Deleting a local branch - this WILL delete a branch even if it hasn't been merged yet!
+git remote prune origin - Remove any remote refs you have locally that have been removed from your remote (you can substitute to any remote branch)
+git branch -a  - Viewing all branches, including local and remote branches
+git branch -a --merged  - Viewing all branches that have been merged into your current branch, including local and remote
+git branch -a --no-merged  - Viewing all branches that haven't been merged into your current branch, including local and remote
+git branch  -  Viewing local branches
+git branch -r  -  Viewing remote branches
+git rebase origin/master  - Rebase master branch into local branch
+git push origin +branchname Fetching and checking out remote branches  -  Pushing local branch after rebasing master into local branch
+git fetch origin - This will fetch all the remote branches for you.
+git checkout -b text origin/text  - With the remote branches in hand, you now need to check out the branch you are interested in, giving you a local working copy
+git branch -rd origin/branchname  -  Deleting a remote branch
+
+git checkout trunk/mater  -  Firt checkout trunk/mater
+git merge branchname  - Now merge branch to trunk/master
+ 
 
 
 
