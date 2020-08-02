@@ -1,8 +1,11 @@
     Magic
 ########## git & github ##########
 
-git init
-git add .
+git init    - create a local repository
+git add .   - adding all files by this command
+git status  - add a new file to your project, and it didn,t exist
+git add -A  - adding all files
+git add filename - add only one purticular file
 git commit -m "Initial first commit"
 
 
@@ -15,7 +18,42 @@ git config --global user.email "nitinkumar42045@gmail.com"
 // send to server
 git remote add origin https://github.com/admin42045
 git push -u origin master
+or
+git push -f origin master
 
 
 // to create a new branch
 git checkout -b newbranch
+
+
+
+########################################
+        Some more addition command here
+########################################
+
+git stash  - stash local changes
+git stash save "this is your custom message" - stash local changes with a custom message
+git stash apply -  Re-apply the changes you saved in your latest stash
+git stash apply stash@{stash_number} - Re-apply the changes you saved in a given stash stash_number
+git stash drop stash@{0} - Drop any stash by its stash_number
+git stash pop -  Apply the stash and then immediately drop it from your stack
+git stash pop stash@{stash_number} - 'Release' a particular stash from your list of stashes
+git stash list - List all stashes
+git stash show - show the latest stash changes
+git diff stash@{0} - see diff details of a given stash stash_number
+
+git commit -m "commit message"  -  commit staged file(s)
+git commit filename -m "commit message"  - add file and commit
+git commit -am "insert commit message"  -  add file and commit staged files
+git commit -amend "new commit message" -  amending a commit
+
+
+
+
+
+
+
+
+
+
+
