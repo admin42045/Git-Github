@@ -1,0 +1,21 @@
+    Magic
+########## git & github ##########
+
+git init
+git add .
+git commit -m "Initial first commit"
+
+
+
+// account setup
+git config --global user.name "admin42045"
+git config --global user.email "nitinkumar42045@gmail.com"
+
+
+// send to server
+git remote add origin https://github.com/admin42045
+git push -u origin master
+
+
+// to create a new branch
+git checkout -b newbranch
