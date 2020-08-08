@@ -9,6 +9,8 @@ git add filename - add only one purticular file
 git commit -m "Initial first commit"
 
 
+git branch --set-upstream-to origin/master
+
 
 // account setup
 git config --global user.name "admin42045"
