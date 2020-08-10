@@ -28,6 +28,11 @@ git push -f origin master
 git checkout -b newbranch
 
 
+// cloning a repository
+git clone url
+
+
+
 
 ########################################
         Some more addition command here
