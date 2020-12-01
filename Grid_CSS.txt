@@ -1,0 +1,54 @@
+Grid Garden in Css
+------------------
+a) grid-column-start
+
+exmple-: grid-column-start: 3;
+grid-column-end: 5;
+gird-column-start: 3;
+grid-column-end: -3;
+grid-column-end: space 2;
+
+
+
+
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#water {
+
+}
+
+
+
+
+
+b ) grid-column
+	grid-column: 2/ 4;
+	grid-column: 5 / 2;  // its means ending point 5 and starting point 2
+
+
+
+c) grid-row
+	grid-row: 6 / 3;
+
+
+#garden {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+#poison {
+grid-column:3 / 2;
+grid-row: 6 / 5;
+}
+
+
+
+
+d ) grid-area: 1 / 2 / 3 / 6;.
+ ( 1 - row,  2 - column, 3 - rowend, 6-columnend; )
