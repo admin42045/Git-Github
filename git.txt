@@ -35,6 +35,14 @@ git clone url
 rm -fr .git
 
 
+// switch between two branches
+
+$ git checkout <existing_branch>
+$ git checkout -b <new_branch>
+
+
+
+
 ########################################
         Some more addition command here
 ########################################
