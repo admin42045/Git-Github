@@ -24,8 +24,6 @@ or
 git push -f origin master
 
 
-// to create a new branch
-git checkout -b newbranch
 
 
 // cloning a repository
@@ -33,6 +31,10 @@ git clone url
 
 // How remove Reinitialized existing Git repository in   ../.git/
 rm -fr .git
+
+
+// to create a new branch
+git checkout -b newbranch
 
 
 // switch between two branches
