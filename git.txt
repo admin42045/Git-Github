@@ -32,6 +32,9 @@ git clone url
 // How remove Reinitialized existing Git repository in   ../.git/
 rm -fr .git
 
+// try when not pushing code
+git pull --allow-unrelated-histories origin master
+git push -u origin master
 
 // to create a new branch
 git checkout -b newbranch
