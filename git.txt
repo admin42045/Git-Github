@@ -32,6 +32,9 @@ git clone url
 // How remove Reinitialized existing Git repository in   ../.git/
 rm -fr .git
 
+// When anybody do dance on the keyboard? or recovery all files
+git checkout -f
+
 // try when not pushing code
 git pull --allow-unrelated-histories origin master
 git push -u origin master
