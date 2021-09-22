@@ -40,6 +40,10 @@ git checkout -f
 git pull --allow-unrelated-histories origin master
 git push -u origin master
 
+// working branch
+git branch
+
+
 // to create a new branch
 git checkout -b newbranch
 
