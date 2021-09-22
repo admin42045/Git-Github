@@ -15,6 +15,7 @@ git branch --set-upstream-to origin/master
 // account setup
 git config --global user.name "admin42045"
 git config --global user.email "nitinkumar42045@gmail.com"
+git config --list  - by this command print the id and username, which by we login in github account
 
 
 // send to server
