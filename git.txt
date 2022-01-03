@@ -32,6 +32,13 @@ or
 git push -f origin master
 
 
+// cloning a rempository
+git clone url
+cd projectname
+git remote
+git remote remove origin
+git remote
+git remote add origin url ( it's your repository url )
 
 
 // cloning a repository
